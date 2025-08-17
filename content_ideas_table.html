@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>라잇요라이프 콘텐츠 아이디어 표</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 20px;
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 24px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 12px;
+        }
+        th {
+            background-color: #34495e;
+            color: white;
+            padding: 12px 8px;
+            text-align: center;
+            font-weight: bold;
+            border: 1px solid #2c3e50;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        td {
+            padding: 10px 8px;
+            border: 1px solid #ddd;
+            vertical-align: top;
+            line-height: 1.4;
+        }
+        .category-1 { background-color: #e8f4fd; }
+        .category-2 { background-color: #fff2e8; }
+        .category-3 { background-color: #f0f8e8; }
+        .category-4 { background-color: #fef0f0; }
+        .category-5 { background-color: #f8f0ff; }
+        
+        .priority-high { 
+            background-color: #e74c3c; 
+            color: white; 
+            font-weight: bold;
+            border-radius: 3px;
+            padding: 2px 6px;
+            font-size: 10px;
+        }
+        .priority-medium { 
+            background-color: #f39c12; 
+            color: white; 
+            font-weight: bold;
+            border-radius: 3px;
+            padding: 2px 6px;
+            font-size: 10px;
+        }
+        .priority-low { 
+            background-color: #27ae60; 
+            color: white; 
+            font-weight: bold;
+            border-radius: 3px;
+            padding: 2px 6px;
+            font-size: 10px;
+        }
+        
+        .format-feed { 
+            background-color: #3498db; 
+            color: white; 
+            border-radius: 3px;
+            padding: 2px 6px;
+            font-size: 10px;
+        }
+        .format-reel { 
+            background-color: #e91e63; 
+            color: white; 
+            border-radius: 3px;
+            padding: 2px 6px;
+            font-size: 10px;
+        }
+        .format-story { 
+            background-color: #9c27b0; 
+            color: white; 
+            border-radius: 3px;
+            padding: 2px 6px;
+            font-size: 10px;
+        }
+        .format-carousel { 
+            background-color: #ff9800; 
+            color: white; 
+            border-radius: 3px;
+            padding: 2px 6px;
+            font-size: 10px;
+        }
+        
+        .content-title {
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+        .content-desc {
+            font-size: 11px;
+            color: #666;
+            line-height: 1.3;
+        }
+        
+        .checklist-item {
+            font-size: 10px;
+            margin: 2px 0;
+            padding: 1px 4px;
+            background-color: #f8f9fa;
+            border-radius: 2px;
+        }
+        
+        .cta-box {
+            background-color: #e8f5e8;
+            padding: 4px 6px;
+            border-radius: 3px;
+            font-size: 10px;
+            margin-top: 3px;
+        }
+        
+        .legend {
+            display: flex;
+            gap: 15px;
+            margin: 15px 0;
+            font-size: 11px;
+            flex-wrap: wrap;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📝 라잇요라이프 체크리스트 충족 콘텐츠 아이디어</h1>
+        
+        <div class="legend">
+            <div class="legend-item">
+                <span class="priority-high">높음</span>
+                <span class="priority-medium">중간</span>
+                <span class="priority-low">낮음</span>
+                <span>우선순위</span>
+            </div>
+            <div class="legend-item">
+                <span class="format-feed">피드</span>
+                <span class="format-reel">릴스</span>
+                <span class="format-story">스토리</span>
+                <span class="format-carousel">캐러셀</span>
+                <span>포맷</span>
+            </div>
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th style="width: 15%;">카테고리</th>
+                    <th style="width: 20%;">콘텐츠 제목 & 설명</th>
+                    <th style="width: 12%;">타겟 고객</th>
+                    <th style="width: 15%;">브랜드 가치 연결</th>
+                    <th style="width: 8%;">포맷</th>
+                    <th style="width: 12%;">핵심 체크리스트 충족</th>
+                    <th style="width: 10%;">CTA</th>
+                    <th style="width: 8%;">우선순위</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- 제품 활용 팁 카테고리 -->
+                <tr class="category-1">
+                    <td rowspan="4"><strong>📝 제품 활용 팁</strong><br><small>실용적 가치 제공</small></td>
+                    <td>
+                        <div class="content-title">하루 5분 기록으로 달라지는 일상</div>
+                        <div class="content-desc">• 아침 기록 루틴 3단계<br>• 라잇요 다이어리 활용법<br>• 실제 고객 변화 사례</div>
+                    </td>
+                    <td>기록 습관 형성을 원하는 20-30대</td>
+                    <td>• 기록을 통한 삶의 질 향상<br>• 실용적 솔루션 제공</td>
+                    <td><span class="format-carousel">캐러셀</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 실용적 가치</div>
+                        <div class="checklist-item">✅ 브랜드 철학 일치</div>
+                        <div class="checklist-item">✅ 고객 문제해결</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"오늘부터 시작해보세요"<br>제품 페이지 이동</div>
+                    </td>
+                    <td><span class="priority-high">높음</span></td>
+                </tr>
+                <tr class="category-1">
+                    <td>
+                        <div class="content-title">직장인 업무 노트 정리법</div>
+                        <div class="content-desc">• 회의록 효율적 작성법<br>• To-do 우선순위 매기기<br>• 라잇요 펜과 노트 조합 꿀팁</div>
+                    </td>
+                    <td>직장인, 업무 효율성 추구층</td>
+                    <td>• 실용성 중심 브랜드<br>• 일상 개선 도구</td>
+                    <td><span class="format-reel">릴스</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 타겟 라이프스타일 반영</div>
+                        <div class="checklist-item">✅ 제품 자연스러운 노출</div>
+                        <div class="checklist-item">✅ 따라하기 쉬운 가이드</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"사무용품 구경하기"<br>위탁처 안내</div>
+                    </td>
+                    <td><span class="priority-high">높음</span></td>
+                </tr>
+                <tr class="category-1">
+                    <td>
+                        <div class="content-title">취미 기록 아이디어 10가지</div>
+                        <div class="content-desc">• 독서, 영화, 운동 기록법<br>• 감정 변화 추적하기<br>• 창의적 기록 템플릿 제공</div>
+                    </td>
+                    <td>자기계발, 취미 활동 활발한 층</td>
+                    <td>• 기록 문화 확산<br>• 다양한 활용법 제시</td>
+                    <td><span class="format-carousel">캐러셀</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 교육적 가치</div>
+                        <div class="checklist-item">✅ 영감적 가치</div>
+                        <div class="checklist-item">✅ 브랜드 차별화</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"템플릿 저장하기"<br>스토리 저장 유도</div>
+                    </td>
+                    <td><span class="priority-medium">중간</span></td>
+                </tr>
+                <tr class="category-1">
+                    <td>
+                        <div class="content-title">라잇요 펜 잉크 수명 늘리는 법</div>
+                        <div class="content-desc">• 올바른 보관 방법<br>• 사용 주의사항<br>• 펜 관리 꿀팁 공유</div>
+                    </td>
+                    <td>기존 고객, 제품 만족도 향상</td>
+                    <td>• 제품에 대한 전문성<br>• 고객 케어</td>
+                    <td><span class="format-feed">피드</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 기존 고객 관계 강화</div>
+                        <div class="checklist-item">✅ 전문성 어필</div>
+                        <div class="checklist-item">✅ 실용적 정보</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"도움됐다면 저장"<br>저장 유도</div>
+                    </td>
+                    <td><span class="priority-medium">중간</span></td>
+                </tr>
+
+                <!-- 브랜드 스토리 카테고리 -->
+                <tr class="category-2">
+                    <td rowspan="3"><strong>🎪 브랜드 스토리</strong><br><small>감정적 연결</small></td>
+                    <td>
+                        <div class="content-title">라잇요 창립자의 첫 번째 노트</div>
+                        <div class="content-desc">• 6년 전 첫 제품 개발 스토리<br>• 왜 '기록'에 꽂혔는지<br>• 브랜드 철학의 시작점</div>
+                    </td>
+                    <td>브랜드 팬층, 스토리 관심층</td>
+                    <td>• 브랜드 진정성<br>• 창립자 철학 전달</td>
+                    <td><span class="format-reel">릴스</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 브랜드 스토리텔링</div>
+                        <div class="checklist-item">✅ 감정적 연결</div>
+                        <div class="checklist-item">✅ 진정성 있는 에피소드</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"브랜드 스토리 더보기"<br>홈페이지 어바웃 이동</div>
+                    </td>
+                    <td><span class="priority-high">높음</span></td>
+                </tr>
+                <tr class="category-2">
+                    <td>
+                        <div class="content-title">고객 후기 실화 애니메이션</div>
+                        <div class="content-desc">• 실제 고객의 변화 스토리<br>• 기록 습관으로 달라진 삶<br>• 감동적인 에피소드 애니메이션</div>
+                    </td>
+                    <td>잠재 고객, 기록 효과 궁금한 층</td>
+                    <td>• 제품 가치 증명<br>• 고객 성공 사례</td>
+                    <td><span class="format-reel">릴스</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 고객 여정 고려</div>
+                        <div class="checklist-item">✅ 사회적 증거</div>
+                        <div class="checklist-item">✅ 감정적 어필</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"나도 시작해보기"<br>제품 구매 유도</div>
+                    </td>
+                    <td><span class="priority-high">높음</span></td>
+                </tr>
+                <tr class="category-2">
+                    <td>
+                        <div class="content-title">라이팅룸에서 일어난 기적 같은 이야기</div>
+                        <div class="content-desc">• 공간에서 만난 사람들 스토리<br>• 기록을 통한 인연과 성장<br>• 따뜻한 에피소드 모음</div>
+                    </td>
+                    <td>라이팅룸 이용객, 감성 마케팅 선호층</td>
+                    <td>• 브랜드 생태계<br>• 커뮤니티 가치</td>
+                    <td><span class="format-carousel">캐러셀</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 브랜드 확장성 보여줌</div>
+                        <div class="checklist-item">✅ 공동체 의식 형성</div>
+                        <div class="checklist-item">✅ 감성적 가치</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"라이팅룸 방문하기"<br>예약 안내</div>
+                    </td>
+                    <td><span class="priority-medium">중간</span></td>
+                </tr>
+
+                <!-- 교육/인사이트 카테고리 -->
+                <tr class="category-3">
+                    <td rowspan="4"><strong>💡 교육/인사이트</strong><br><small>전문성 어필</small></td>
+                    <td>
+                        <div class="content-title">뇌과학으로 본 손글씨의 힘</div>
+                        <div class="content-desc">• 디지털 vs 아날로그 기록 효과<br>• 과학적 근거 제시<br>• 전문가 인터뷰 인용</div>
+                    </td>
+                    <td>교육 관심층, 근거 중시하는 고객</td>
+                    <td>• 아날로그 기록 가치<br>• 전문성 기반 신뢰</td>
+                    <td><span class="format-carousel">캐러셀</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 교육적 가치</div>
+                        <div class="checklist-item">✅ 과학적 근거</div>
+                        <div class="checklist-item">✅ 브랜드 전문성</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"손글씨 시작하기"<br>펜 제품 추천</div>
+                    </td>
+                    <td><span class="priority-high">높음</span></td>
+                </tr>
+                <tr class="category-3">
+                    <td>
+                        <div class="content-title">성공하는 사람들의 기록 습관</div>
+                        <div class="content-desc">• 유명인들의 기록법 분석<br>• 공통점과 차이점<br>• 따라할 수 있는 실전 팁</div>
+                    </td>
+                    <td>성공 지향적, 자기계발 관심층</td>
+                    <td>• 기록의 가치 증명<br>• 동기부여 제공</td>
+                    <td><span class="format-carousel">캐러셀</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 영감적 가치</div>
+                        <div class="checklist-item">✅ 벤치마킹 욕구 충족</div>
+                        <div class="checklist-item">✅ 실용적 적용 가능</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"성공 기록 템플릿"<br>무료 다운로드</div>
+                    </td>
+                    <td><span class="priority-medium">중간</span></td>
+                </tr>
+                <tr class="category-3">
+                    <td>
+                        <div class="content-title">종이의 역사와 미래</div>
+                        <div class="content-desc">• 문구의 발전사<br>• 디지털 시대 아날로그 의미<br>• 지속가능한 문구 문화</div>
+                    </td>
+                    <td>교양 관심층, 환경 의식 고객</td>
+                    <td>• 문구 전문성<br>• 지속가능성 가치</td>
+                    <td><span class="format-feed">피드</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 업계 전문성</div>
+                        <div class="checklist-item">✅ 교육적 내용</div>
+                        <div class="checklist-item">✅ 브랜드 철학 반영</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"친환경 제품 보기"<br>제품 카테고리 이동</div>
+                    </td>
+                    <td><span class="priority-low">낮음</span></td>
+                </tr>
+                <tr class="category-3">
+                    <td>
+                        <div class="content-title">기록이 창의력에 미치는 영향</div>
+                        <div class="content-desc">• 창의적 사고 과정 분석<br>• 기록을 통한 아이디어 발전<br>• 크리에이터들의 노트 공개</div>
+                    </td>
+                    <td>크리에이터, 창의직군</td>
+                    <td>• 창의적 도구로서의 기록<br>• 전문 분야 확장</td>
+                    <td><span class="format-reel">릴스</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 타겟 세분화</div>
+                        <div class="checklist-item">✅ 전문성 어필</div>
+                        <div class="checklist-item">✅ 영감 제공</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"창의적 노트 구경"<br>아이디어 노트 제품군</div>
+                    </td>
+                    <td><span class="priority-medium">중간</span></td>
+                </tr>
+
+                <!-- 라이프스타일/트렌드 카테고리 -->
+                <tr class="category-4">
+                    <td rowspan="3"><strong>🌟 라이프스타일</strong><br><small>트렌드 반영</small></td>
+                    <td>
+                        <div class="content-title">2024 다이어리 데코 트렌드</div>
+                        <div class="content-desc">• 올해 인기 꾸미기 스타일<br>• 라잇요 제품 활용한 데코<br>• 초보자도 쉬운 팁</div>
+                    </td>
+                    <td>다이어리 꾸미기 관심층, MZ세대</td>
+                    <td>• 트렌디한 브랜드 이미지<br>• 젊은 층 어필</td>
+                    <td><span class="format-reel">릴스</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 트렌드 반영</div>
+                        <div class="checklist-item">✅ 시각적 매력</div>
+                        <div class="checklist-item">✅ 제품 노출 자연스러움</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"데코 용품 쇼핑"<br>스티커, 펜 등 추천</div>
+                    </td>
+                    <td><span class="priority-medium">중간</span></td>
+                </tr>
+                <tr class="category-4">
+                    <td>
+                        <div class="content-title">미니멀 라이프 × 기록 생활</div>
+                        <div class="content-desc">• 꼭 필요한 기록 도구만<br>• 심플한 기록법<br>• 정리된 공간에서의 기록</div>
+                    </td>
+                    <td>미니멀 라이프 추구층</td>
+                    <td>• 정돈된 브랜드 이미지<br>• 심플함의 가치</td>
+                    <td><span class="format-feed">피드</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 라이프스타일 반영</div>
+                        <div class="checklist-item">✅ 브랜드 톤 일치</div>
+                        <div class="checklist-item">✅ 타겟 세분화</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"미니멀 세트 구경"<br>기본 필수템 세트</div>
+                    </td>
+                    <td><span class="priority-medium">중간</span></td>
+                </tr>
+                <tr class="category-4">
+                    <td>
+                        <div class="content-title">홈카페에서의 기록 시간</div>
+                        <div class="content-desc">• 집에서 카페 분위기 내기<br>• 기록하기 좋은 환경 만들기<br>• 감성적인 일상 루틴</div>
+                    </td>
+                    <td>홈카페 문화 선호층, 감성 추구층</td>
+                    <td>• 감성적 브랜드 가치<br>• 일상 속 특별함</td>
+                    <td><span class="format-story">스토리</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 감성적 어필</div>
+                        <div class="checklist-item">✅ 라이프스타일 제안</div>
+                        <div class="checklist-item">✅ 분위기 연출</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"감성 기록템 구경"<br>분위기 연출용 제품</div>
+                    </td>
+                    <td><span class="priority-low">낮음</span></td>
+                </tr>
+
+                <!-- 시즌/이벤트 카테고리 -->
+                <tr class="category-5">
+                    <td rowspan="3"><strong>📅 시즌/이벤트</strong><br><small>타이밍 마케팅</small></td>
+                    <td>
+                        <div class="content-title">새학기 준비 완벽 가이드</div>
+                        <div class="content-desc">• 학습 계획 세우기<br>• 필수 문구 체크리스트<br>• 성공적인 한 해 만들기</div>
+                    </td>
+                    <td>학생, 새로운 시작 준비하는 층</td>
+                    <td>• 새 시작의 동반자<br>• 목표 달성 도구</td>
+                    <td><span class="format-carousel">캐러셀</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 시즌성 반영</div>
+                        <div class="checklist-item">✅ 실용적 가이드</div>
+                        <div class="checklist-item">✅ 타겟 명확</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"새학기 세트 할인"<br>특별 이벤트 페이지</div>
+                    </td>
+                    <td><span class="priority-high">높음</span></td>
+                </tr>
+                <tr class="category-5">
+                    <td>
+                        <div class="content-title">연말 회고 & 새해 계획 템플릿</div>
+                        <div class="content-desc">• 올해 돌아보기 질문지<br>• 내년 목표 설정법<br>• 실현 가능한 계획 세우기</div>
+                    </td>
+                    <td>자기계발 관심층, 계획적인 성향</td>
+                    <td>• 성찰과 성장 도구<br>• 인생 목표 동반자</td>
+                    <td><span class="format-carousel">캐러셀</span></td>
+                    <td>
+                        <div class="checklist-item">✅ 시즌 이슈 활용</div>
+                        <div class="checklist-item">✅ 무료 가치 제공</div>
+                        <div class="checklist-item">✅ 실용적 템플릿</div>
+                    </td>
+                    <td>
+                        <div class="cta-box">"플래너 구매하기"<br>연간 플래너 추천</div>
+                    </td>
+                    <td><span class="priority-high">높음</span></td>
+                </tr>
+                <tr class="category-5">
+                    <td>
+                        <div class="content-title">가정의 달 특별 기획: 가족 기록</div>
+                        <div class="content-desc">• 가족과 함께하는 기록법<br>• 추억 남기기 아이디어<br>• 선물용 기록 세트 추천</div>
+                    </td>
+                    <td>가
